@@ -7,3 +7,4 @@ joblib>=1.3.0
 category-encoders
 xgboost
 nltk 
+stopwords
