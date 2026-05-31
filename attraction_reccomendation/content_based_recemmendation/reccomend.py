@@ -4,7 +4,8 @@ import nltk
 resources = [
     "stopwords",
     "wordnet",
-    "averaged_perceptron_tagger"
+    "averaged_perceptron_tagger",
+    "averaged_perceptron_tagger_eng"
 ]
 
 for resource in resources:
