@@ -1,6 +1,14 @@
 import joblib
 import re 
 import nltk
+resources = [
+    "stopwords",
+    "wordnet",
+    "averaged_perceptron_tagger"
+]
+
+for resource in resources:
+    nltk.download(resource, quiet=True)
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk import pos_tag
