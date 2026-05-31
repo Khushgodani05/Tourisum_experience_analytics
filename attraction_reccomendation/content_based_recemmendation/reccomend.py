@@ -1,5 +1,6 @@
 import joblib
 import re 
+import nltk
 from nltk.corpus import stopwords
 from nltk.corpus import wordnet
 from nltk import pos_tag
